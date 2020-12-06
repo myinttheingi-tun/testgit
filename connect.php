@@ -1,6 +1,4 @@
-
-
-  <?php
+ <?php
 
 
  $id	=$_POST['id'];
@@ -25,10 +23,11 @@ else if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 
  else{
- 	$stmt = $conn->prepare("insert into registration(id,name,email,phone,password) values(?,?,?,?,?)");
+ 	$stmt = $conn->prepare("insert into user(id,name,email,phone,password) values(?,?,?,?,?)");
  	$stmt->bind_param("issis",$id,$name,$email,$phone,$password);
  	$stmt->execute();
  	echo "registration successfully...";
+ 	header("location: login.html");
  	$stmt->close();
  	$conn->close();
  }

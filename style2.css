@@ -1,0 +1,457 @@
+body {
+  font-family: "Arial", sans-serif;
+
+}
+
+/*login style*/
+
+input[type=text], input[type=password]{
+  width: 50%;
+  margin-left: 25%;
+  margin-top:2%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+}
+
+.lsbtn{
+  margin-top: 3%;
+  margin-left: 35%;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+}
+
+.logo{
+  margin-left: 30%;
+  width: 40%;
+}
+
+/*nav style*/
+
+.sidenav {
+  width: 25%;
+  height: 100%;
+  position: fixed;
+  background: #eee;
+  padding: 8px 0;
+  background-color:  rgba(3, 49, 70, 1);
+  float: left;
+}
+
+.sidenav p {
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 6px 8px 6px 6px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: rgba(247, 245, 243, 1);
+  display: block;
+}
+
+.userimg{
+  margin-top: 20px;
+  margin-left:25%;
+  width: 50%;
+  
+}
+
+/*report style*/
+.report{
+  width: 100%;
+  margin-left: 25%;
+}
+.main {
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.main p{
+  margin-top: 2px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: rgba(3, 49, 70, 1);
+  display: block;
+}
+.formlabel{
+  margin-left: 5px;
+  font-size: 2vw;
+}
+.formlabel input{
+  font-size: 2vw;
+}
+.formlabel select{
+  width: 50%;
+  font-size: 2vw;
+  margin-left: 25%;
+  margin-top:2%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.textareareport{
+  width:80%; 
+  margin-left: 7%;
+}
+
+
+/*single report style*/
+.reportstyle{
+  width: 70%;
+  margin-left: 25%;
+
+}
+.reportstyle p{
+  font-size: 2vw;
+}
+
+/*stock style*/
+.itembtn{
+  width: 70%;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-size: 2vw;
+}
+.itembtn img{
+  margin-left: 2%;
+}
+
+
+/*stock info seasonal best sales style*/
+.stock{
+  width: 100%;
+  margin-left: 25%;
+}
+.stockitem{
+  background-color: rgba(3, 49, 70, 1);
+  margin-left:10%;
+  width: 50%;
+  height: 50%;
+}
+.stockinfoimg{
+  margin-left:25%;
+  width:50%;
+}
+
+.stockiteminfo{
+  color: rgba(3, 49, 70, 1);
+  font-size: 2vw;
+  margin-left: 15%;
+}
+.stockbenefit{
+  margin-left: 10%;
+}
+.stockiteminfo input{
+  margin-left: 20%;
+  color: black;
+  font-size: 2vw;
+  text-align:center;
+}
+.stockiteminfo button{
+  margin-top: 2%;
+  margin-left: 15%;
+  width: 20%;
+  height: 10%;
+  border-radius: 4px;
+  background-color: rgba(3, 49, 70, 1);
+  color: rgba(243, 242, 241, 1);
+  font-size: 2vw;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+/* seasonal best sales style */
+.seasonalbar{
+  left: 0px;
+  width: 100%;
+  height: 5%;
+  line-height: 20px;
+  background-color: rgba(3, 49, 70, 1);
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+.seasonalbs, .home{
+  margin-left:25%;
+  width: 75%;
+}
+.seasonalbs h3{
+  width: 90%;
+  margin-left: 5%;
+  color: rgba(243, 242, 241, 1);
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+/*sign in style*/
+.shindory {
+  left: 5px;
+  top: 400px;
+  width: 300px;
+  height: 200px;
+  margin-left:50px;
+  background-color: rgba(255, 255, 255, 0);
+  float:left;
+
+}
+.main {
+  margin-left: 15px; /* Same width as the sidebar + left position in px */
+  padding: 0px 10px;
+}
+
+.container{
+  left: 417px;
+  top: 116px;
+  width: 890px;
+  height: 880px;
+  line-height: 20px;
+  background-color: rgba(3, 49, 70, 1);
+  text-align: center;
+  float:right;
+  padding:8px 0;
+}
+
+.formstyle{
+  margin-left: 150px;
+}
+
+.btnstyle{
+  left: 905px;
+  top: 867px;
+  width: 300px;
+  height: 63px;
+  border-radius: 4px;
+  background-color: rgba(3, 49, 70, 1);
+  color: rgba(243, 242, 241, 1);
+  font-size: 28px;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+.lb{
+  left: 511px;
+  top: 190px;
+  width: 220px;
+  height: 50px;
+  color: rgba(247, 245, 243, 1);
+  font-size: 20px;
+  text-align: left;
+}
+
+.in{
+  left: 300px;
+  top: 181px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  color: rgba(241, 93, 2, 1);
+  font-size: 20px;
+  text-align: left;
+  border: 2px solid rgba(3, 49, 70, 1);
+}
+
+.slt{
+  left: 300px;
+  top: 181px;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  color:rgb(105,105,105);
+  font-size: 20px;
+  text-align: left;
+  border: 2px solid rgba(3, 49, 70, 1);
+}
+
+.btn{
+  margin-top: 5%;
+  margin-left: 30px;
+  left: 300px;
+  top: 700px;
+  width: 20%;
+  height: 10%;
+  border-radius: 4px;
+  background-color: rgba(3, 49, 70, 1);
+  color: rgba(243, 242, 241, 1);
+  font-size: 2vw;
+  text-align: center;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+
+/*view report style*/ /*notifications style*/
+.report, .noti{
+  margin-left:25%;
+  width: 75%;
+  height:5%;
+  line-height: 20px;
+  text-align:left;
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+.report .reportsingle,.noti .notibar{
+  width: 100%;
+  height: 50%;
+  margin-top: 0%;
+  border: 1px solid rgba(187, 187, 187, 1);
+  width: 100%;
+  background-color: rgba(243, 242, 241, 1);
+}
+
+.report p{
+  margin-top: 1%;
+  float:right;
+  margin-right:90%;
+  color: rgba(3, 49, 70, 1);
+  font-size: 2vw;
+}
+.report blockquote{
+  color: rgba(16, 16, 16, 1);
+  font-size: 1.5vw;
+  text-align: left;
+  margin-left:5%;
+}
+
+/*notifications style (con'd) noti and notibar are
+same as report*/
+.notibar p{
+  font-size: 2vw;
+  margin-top: 7px;
+  margin-left: 5px;
+}
+.notibody{
+  width: 100%;
+  height: 50px;
+  font-size: 1.8vw;
+  margin-top: 0%;
+  color: white;
+  border: 1px solid rgba(187, 187, 187, 1);
+  width: 100%;
+  background-color: rgba(3, 49, 70, 1);
+}
+.notibody p{
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+/*home style*/
+.heading{
+  margin-left: 5%; 
+  width: 40%;
+}
+.qrandnotibtn{
+  margin-left: 70%;
+  width: 30%;
+}
+.search{
+  margin-top: 2%;
+  margin-left: 5%;
+}
+.product{
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border: 1px solid rgba(3, 49, 70, 1);
+}
+.productimg{
+  width:10%;
+  margin-left: 11%;
+}
+.funbtn{
+  margin-top: 3%;
+}
+.funbtn i{
+  margin-top: 10%;
+}
+.funbtn p{
+  margin-left: 2%;
+}
+.productseasonalbs{
+  width: 100%;
+  margin-top: 0%;
+  margin-left: 0%;
+  border: 1px solid rgba(3, 49, 70, 1);
+}
+.seasonalbg{
+  margin-left: 0%;
+  width: 100%;
+  color: white;
+  font-size: 2vw;
+  line-height: 20px;
+  background-color: rgba(3, 49, 70, 1);
+  border: 1px solid rgba(187, 187, 187, 1);
+}
+.seasonalbg p{
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+/*single order old style */
+.order{
+  margin-left:25%;
+  height:5%;
+  line-height: 20px;
+  text-align:left;
+}
+.singleorder{
+  margin-left: 2%;
+  width: 95%;
+  height: 50%;
+  border: 1px solid rgba(187, 187, 187, 1);
+  background-color: rgba(3, 49, 70, 1);
+}
+.singleorder p{
+  line-height: 100%;
+  color: rgba(247, 245, 243, 1);
+  font-size: 2vw;
+
+}
+.orderimg{
+  width: 60px;
+}
+.mmk{
+  line-height: 100%;
+  width: 20%;
+  background-color: rgba(243, 242, 241, 1);
+  color: rgba(16, 16, 16, 1);
+  font-size: 2vw;
+  text-align: center;
+  border: 2px solid rgba(187, 187, 187, 1);
+  margin-left:28%;
+}
+.orderbtn{
+  line-height: 120%;
+  margin-left: 30%;
+  background-color: rgba(3, 49, 70, 1);
+  color: white;
+  border: 1px solid rgba(187, 187, 187, 1);
+  font-size: 2vw;
+  text-align:center;
+}
+
+/*order style*/
+.datetimep{
+  margin-top: 5px;
+  margin-left:2%;
+  color: white;
+  font-size: 2vw;
+  text-align: left;
+  float:left
+}
+.rightmmk{
+    margin-top: 5px;
+    color: rgba(3, 49, 70, 1);
+    font-size: 2vw;
+    color: white; 
+    text-align:center;
+    margin-left:90%
+}
+
+@media (max-width: 479px){
+  .textareareport{
+    margin-top: 9%;
+    margin-left: 1%;
+  }
+  
+}
